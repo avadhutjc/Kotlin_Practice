@@ -1,4 +1,5 @@
 class DoNothing {
+
     object Utils {
         @JvmStatic
         fun doSomething() {
@@ -10,4 +11,5 @@ class DoNothing {
             print("accessing from kotlin")
         }
     }
+
 }
