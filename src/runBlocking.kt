@@ -6,5 +6,4 @@ fun main() {
     DoNothing.Utils.cool()
     println()
 
-
 }
