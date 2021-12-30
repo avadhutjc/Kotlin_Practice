@@ -10,7 +10,6 @@ public class Java {//
         //DoNothing.Utils.INSTANCE.doSomething();
         DoNothing.Utils.doSomething();
 
-
         DoNothing.Utils.INSTANCE.cool();
     }
 }
