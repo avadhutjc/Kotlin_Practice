@@ -9,6 +9,9 @@ private const val noOfStudent = 1000
 
 // Visible just inside this file
 private class PrivateModifier {
+    fun cool() {
+        println("Yes Done")
+    }
 
     private val newCount = noOfStudent
     //noOfStudent variable can be access only inside class
@@ -17,3 +20,9 @@ private class PrivateModifier {
 //private val newCount2 = newCount
 //We cannot assign newCount variable outside particular block
 /// ERROR: newCount is not accessible outside the Student class
+fun main() {
+    PrivateModifier().run {
+        println(noOfStudent)
+    }
+    PrivateModifier().cool()
+}

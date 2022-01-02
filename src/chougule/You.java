@@ -18,5 +18,6 @@ public class You extends Just {
     public static void main(String[] args) {
 //        Just you = new You();
 //        you.CoolSong();
+
     }
 }
