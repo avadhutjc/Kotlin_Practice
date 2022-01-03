@@ -12,6 +12,28 @@ private class Student : ProtectedModifier() {
     }
 }
 
+private abstract class Over {
+    protected abstract fun OverridingProtected()
+}
+
+private open class StudentOver : Over() {
+    override fun OverridingProtected() {
+        TODO("Not yet implemented")
+    }
+}
+/*
+When we are overriding a protected method then the visibility of
+the overridden method is also protected and it will be visible inside that
+particular file.
+ */
+
+private class Abc : StudentOver() {
+    override fun OverridingProtected() {
+        super.OverridingProtected()
+    }
+}
+
+
 fun main() {
     Student().Ac(123)
 }
@@ -37,6 +59,7 @@ private class Teacher : FirstTime {
 
 }
 
+//see class Student.kt for more understanding in deep
 /*
 // Protected modifier example
 
@@ -62,3 +85,5 @@ protected const val noOfStudent = 10000
 
 // ERROR: protected modifier is not allowed for top level declarations
 protected class Staff()*/
+
+

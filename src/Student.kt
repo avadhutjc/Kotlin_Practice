@@ -16,5 +16,10 @@ class StudentManager : Student1() {
     private val finalCount = newCount
 }
 
+/*
 // ERROR: protected modifier is not allowed for top level declarations
-private const val noOfStudent: Int = 10000
+protected const val noOfStudent: Int = 10000 //declare here only private
+
+// ERROR: protected modifier is not allowed for top level declarations
+protected class Staff() //declare here private or internal
+*/
