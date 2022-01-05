@@ -1,4 +1,6 @@
 import kotlin.jvm.JvmStatic;
+// https://github.com/avadhutjc/Kotlin_Practice.git
+//https://github.com/avadhutjc/Kotlin_Practice.git
 
 public class Java {//
 
