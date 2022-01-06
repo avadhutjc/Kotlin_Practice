@@ -4,6 +4,7 @@ class NullSafe {
 }
 
 fun main() {
+
     val name: String = "Lloyd"
     print(name)
 }
