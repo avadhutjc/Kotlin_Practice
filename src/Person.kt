@@ -24,7 +24,6 @@ fun main() {
     //   Person().performLetOperation()
     val personUnit = Person().let {
         it.name = "masai"
-
     }
     print(personUnit)
 }
