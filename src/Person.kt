@@ -1,23 +1,30 @@
 class Person {
-    lateinit var name: String
-    fun initializeName() {
-        println(this::name.isInitialized)
-        name = "MindOrks" // initializing name
-        println(this::name.isInitialized)
-    }
+    var name: String = "ABCD"
+    var contactNumber: String = "1234567890"
+    var address: String = "XYZ"
 
+    fun displayInfo() =
+        print(
+            "\n Name: $name \n" +
+                    " ContactNumber: $contactNumber \n" +
+                    " Address: $address"
+        )
+
+    fun performLetOperation() {
+        val person = Person().let {
+            return@let "The name of the Person is: ${it.name}"
+        }
+        print(person)
+    }
 }
 
 fun main() {
-    Person().initializeName()
+    //print(Person().name)
+//    Person().displayInfo()
+    //   Person().performLetOperation()
+    val personUnit = Person().let {
+        it.name = "masai"
+
+    }
+    print(personUnit)
 }
-
-
-
-
-/*
-'lateinit' modifier is allowed only on mutable properties
-
-    lateinit val name: String
-
- */

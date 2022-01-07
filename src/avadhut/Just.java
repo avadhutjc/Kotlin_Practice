@@ -2,16 +2,13 @@ package avadhut;
 
 public class Just {
 
-    int a;
-    int b;
+    int a =2;
+    int b = 3;
 
     public void CoolSong() {
         System.out.println("Done Cool");
     }
 
-    protected int getA() {
-        return a;
-    }
 
 }
 
