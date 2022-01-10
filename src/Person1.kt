@@ -13,8 +13,6 @@ fun main() {
 }
 
 
-
-
 /*
 'lateinit' modifier is allowed only on mutable properties
 
