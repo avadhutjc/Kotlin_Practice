@@ -5,10 +5,11 @@ class Person {
 
     fun displayInfo() =
         print(
-            "\n Name: $name \n" +
+            "\n Name: ${name.length} \n" +
                     " ContactNumber: $contactNumber \n" +
                     " Address: $address"
         )
+
 
     fun performLetOperation() {
         val person = Person().let {
