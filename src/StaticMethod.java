@@ -4,7 +4,7 @@ public class StaticMethod {
         System.out.println("HotBomb Called");
     }
 
-    public void  CoolBomb() {
+    public void CoolBomb() {
         System.out.println("Cool Bomb Called");
     }
 
