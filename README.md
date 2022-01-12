@@ -1,2 +1,2 @@
 # Kotlin_Practice
-just for kotlin Practice
+kotlin Practice for interview
