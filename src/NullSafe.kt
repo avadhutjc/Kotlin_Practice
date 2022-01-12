@@ -3,8 +3,8 @@ import kotlin.math.roundToInt
 class NullSafe {
 }
 
-fun main() {
 
+fun main() {
     val name: String = "Lloyd"
     print(name)
 }
