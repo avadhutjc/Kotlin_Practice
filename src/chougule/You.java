@@ -14,7 +14,9 @@ public class You extends Just {
         Just just = new Just();
         just.CoolSong();
         You you = new You();
+
+        //If you need to determine exactly which class your object is: use getClass() method
+        System.out.println(you.getClass());
+
     }
-
-
 }

@@ -1,7 +1,14 @@
-public class Parent {
+ public class Parent {
 
     public Parent() {
         System.out.println("Parent constructor called");
+    }
+
+    //you cannot override show() method boz its final method through out program so
+    //after extending Parent class you will not see show() method
+    //ie. Method cannot be overridden in subclass
+    public final void show(Object o) {
+        System.out.println("BaseClass method");
     }
 }
 

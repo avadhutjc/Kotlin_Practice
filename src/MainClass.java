@@ -4,6 +4,7 @@ public class MainClass {
     public static void main(String[] args) {
         // DoNothing.Utils.cool();
         Scanner scanner = new Scanner(System.in);
+
         if (scanner.hasNextInt()) {
             System.out.println("This input is of type Integer");
         } else if (scanner.hasNextFloat()) {

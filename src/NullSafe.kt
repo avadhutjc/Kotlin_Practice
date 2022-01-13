@@ -1,6 +1,7 @@
 import kotlin.math.roundToInt
 
 class NullSafe {
+    var a = arrayListOf(1,2,3)
 }
 
 
